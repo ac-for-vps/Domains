@@ -1,1 +1,2 @@
 vless://53a46a15-9589-4bff-b0d4-9743c2477fb1@bread.umka.top:443?security=reality&sni=bread.umka.top&fp=chrome&pbk=qmnhKQyy_FHIklQpuq0KSTZIwf-QqtFf3qT61UDSh0c&sid=8ec26d1915adb3de&type=tcp&flow=xtls-rprx-vision&encryption=none#%F0%9F%8D%9E%20Bread%20(test%20server)
+vless://e53259d5-80d6-4d07-9f23-a5f3d7dc5039@vpn.jfett.cloud:55713?security=tls&sni=vpn.jfett.cloud&fp=chrome&type=ws&path=/ws&host=vpn.jfett.cloud&encryption=none#vless-ws-tls-user427495872
