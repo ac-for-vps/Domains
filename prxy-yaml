@@ -1,4 +1,3 @@
-
 proxies:
 - type: 'vless'
   name: '🇩🇪 Germany #1 ⚡️10 Gbit'
