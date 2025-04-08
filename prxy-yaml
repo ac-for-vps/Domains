@@ -1,9 +1,26 @@
+
 proxies:
+- type: 'vless'
+  name: 'NL ztv.su'
+  server: '91.211.115.46'
+  port: 443
+  uuid: 'ca3ad7c0-4ecd-4e7d-939e-c67d5caaf6d4'
+  tls: true
+  servername: 'beta.fiyero.xyz'
+  flow: 'xtls-rprx-vision'
+  client-fingerprint: 'chrome'
+  skip-cert-verify: false
+  reality-opts:
+    public-key: 'DfcG84WAVQNfhzZN6JNDdwa-toIaX-m2wmLvajmn9Cs'
+    ws-opts: {}
+    http-opts: {}
+    grpc-opts: {}
+    network: 'tcp'
 - type: 'vless'
   name: '🇩🇪 Germany #1 ⚡️10 Gbit'
   server: 'de1.gofizzin.com'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'de1.gofizzin.com'
   flow: 'xtls-rprx-vision'
@@ -20,7 +37,7 @@ proxies:
   name: '🇳🇱 NL #1⚡️10 Gbit Torrent✅'
   server: 'nl1.gofizzin.com'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'nl1.gofizzin.com'
   flow: 'xtls-rprx-vision'
@@ -37,7 +54,7 @@ proxies:
   name: '🇳🇱 NL #2⚡️10 Gbit Torrent✅'
   server: 'nl2.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'nl2.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -54,7 +71,7 @@ proxies:
   name: '🇸🇪 Sweden #3 ⚡️10 Gbit, Low Ping'
   server: 'se3.gofizzin.com'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'se3.gofizzin.com'
   flow: 'xtls-rprx-vision'
@@ -63,15 +80,15 @@ proxies:
   reality-opts:
     public-key: 'nmoHVsghroRQczCeAUcCHTNFashHmrH6DfBEEGZGzl4'
     short-id: '85a8a921740d'
-    ws-opts: {}
-    http-opts: {}
-    grpc-opts: {}
-    network: 'tcp'
+  ws-opts: {}
+  http-opts: {}
+  grpc-opts: {}
+  network: 'tcp'
 - type: 'vless'
   name: '🇪🇪 Estonia #1⚡️10 Gbit, Low Ping'
   server: 'ee1.gofizzin.com'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'ee1.gofizzin.com'
   flow: 'xtls-rprx-vision'
@@ -88,7 +105,7 @@ proxies:
   name: '🇱🇻 Latvia ⚡️Low Ping'
   server: 'lv1.gofizzin.com'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'lv1.gofizzin.com'
   flow: 'xtls-rprx-vision'
@@ -105,7 +122,7 @@ proxies:
   name: '🇸🇪 Sweden #1 ⚡️Low Ping'
   server: 'se1.gofizzin.com'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'se1.gofizzin.com'
   flow: 'xtls-rprx-vision'
@@ -119,10 +136,10 @@ proxies:
     grpc-opts: {}
     network: 'tcp'
 - type: 'vless'
-  name: '🇫🇮 Game #1 📊 5.4GB / 20GB'
+  name: '🇫🇮 Game #1 📊 44MB / 20GB'
   server: 'gm1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'gm1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -136,10 +153,10 @@ proxies:
     grpc-opts: {}
     network: 'tcp'
 - type: 'vless'
-  name: '🇫🇮 Game #2 📊 5GB / 20GB'
+  name: '🇫🇮 Game #2 📊 1MB / 20GB'
   server: 'gm2.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'gm2.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -156,7 +173,7 @@ proxies:
   name: '🇫🇮 Finland #3⚡️Low Ping'
   server: 'fi3.gofizzin.com'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'fi3.gofizzin.com'
   flow: 'xtls-rprx-vision'
@@ -173,7 +190,7 @@ proxies:
   name: '🇫🇮 Finland #4⚡️Low Ping'
   server: 'fi4.gofizzin.com'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'fi4.gofizzin.com'
   flow: 'xtls-rprx-vision'
@@ -190,7 +207,7 @@ proxies:
   name: '🇬🇧 UK #2⚡️10 Gbit'
   server: 'uk2.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'uk2.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -207,7 +224,7 @@ proxies:
   name: '🇦🇷 Argentina'
   server: 'ar1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'ar1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -224,7 +241,7 @@ proxies:
   name: '🇦🇺 Australia'
   server: 'au1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'au1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -241,7 +258,7 @@ proxies:
   name: '🇦🇹 Austria #1'
   server: 'at1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'at1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -258,7 +275,7 @@ proxies:
   name: '🇦🇹 Austria #2'
   server: 'at2.gofizzin.com'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'at2.gofizzin.com'
   flow: 'xtls-rprx-vision'
@@ -275,7 +292,7 @@ proxies:
   name: '🇧🇷 Brazil'
   server: 'br1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'br1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -292,7 +309,7 @@ proxies:
   name: '🇨🇦 Canada'
   server: 'ca1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'ca1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -309,7 +326,7 @@ proxies:
   name: '🇩🇰 Denmark'
   server: 'dk1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'dk1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -326,7 +343,7 @@ proxies:
   name: '🇪🇬 Egypt'
   server: 'eg1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'eg1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -343,7 +360,7 @@ proxies:
   name: '🇪🇪 Estonia #2⚡️Low Ping'
   server: 'ee2.gofizzin.com'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'ee2.gofizzin.com'
   flow: 'xtls-rprx-vision'
@@ -360,7 +377,7 @@ proxies:
   name: '🇫🇮 Finland #1'
   server: 'fi1.gofizzin.com'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'fi1.gofizzin.com'
   flow: 'xtls-rprx-vision'
@@ -377,7 +394,7 @@ proxies:
   name: '🇫🇮 Finland #2'
   server: 'fi2.gofizzin.com'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'fi2.gofizzin.com'
   flow: 'xtls-rprx-vision'
@@ -394,7 +411,7 @@ proxies:
   name: '🇫🇷 France'
   server: 'fr1.gofizzin.com'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'fr1.gofizzin.com'
   flow: 'xtls-rprx-vision'
@@ -408,16 +425,16 @@ proxies:
     grpc-opts: {}
     network: 'tcp'
 - type: 'vless'
-    name: '🇬🇪 Georgia'
-    server: 'ge1.gofizz.in'
-    port: 443
-    uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
-    tls: true
-    servername: 'ge1.gofizz.in'
-    flow: 'xtls-rprx-vision'
-    client-fingerprint: 'chrome'
-    skip-cert-verify: false
-    reality-opts:
+  name: '🇬🇪 Georgia'
+  server: 'ge1.gofizz.in'
+  port: 443
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
+  tls: true
+  servername: 'ge1.gofizz.in'
+  flow: 'xtls-rprx-vision'
+  client-fingerprint: 'chrome'
+  skip-cert-verify: false
+  reality-opts:
     public-key: 'fVo5hYUD3VkxEetcXSMVWp7hjvz4YrKLNHDhGhn-d3M'
     short-id: '0640a12b'
     ws-opts: {}
@@ -428,7 +445,7 @@ proxies:
   name: '🇩🇪 Germany #2'
   server: 'de2.gofizzin.com'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'de2.gofizzin.com'
   flow: 'xtls-rprx-vision'
@@ -445,7 +462,7 @@ proxies:
   name: '🇭🇰 Hong Kong'
   server: 'hk1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'hk1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -462,7 +479,7 @@ proxies:
   name: '🇮🇳 India'
   server: 'in1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'in1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -470,7 +487,7 @@ proxies:
   skip-cert-verify: false
   reality-opts:
     public-key: 'dxn64xOdehUxUEkdfVwkQEk3D3hzzcFaHGH8FBH92WM'
-    hort-id: '66d7936a'
+    short-id: '66d7936a'
     ws-opts: {}
     http-opts: {}
     grpc-opts: {}
@@ -479,7 +496,7 @@ proxies:
   name: '🇮🇪 Ireland'
   server: 'ie1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'ie1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -496,7 +513,7 @@ proxies:
   name: '🇮🇹 Italy'
   server: 'it1.gofizzin.com'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'it1.gofizzin.com'
   flow: 'xtls-rprx-vision'
@@ -513,7 +530,7 @@ proxies:
   name: '🇯🇵 Japan #1'
   server: 'jp1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'jp1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -530,7 +547,7 @@ proxies:
   name: '🇰🇿 Kazakhstan'
   server: 'kz1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'kz1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -547,7 +564,7 @@ proxies:
   name: '🇲🇾 Malaysia'
   server: 'my1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'my1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -564,7 +581,7 @@ proxies:
   name: '🇲🇩 Moldova Torrent✅'
   server: 'md1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'md1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -581,7 +598,7 @@ proxies:
   name: '🇳🇬 Nigeria'
   server: 'ng1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'ng1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -598,7 +615,7 @@ proxies:
   name: '🇳🇴 Norway'
   server: 'no1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'no1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -615,7 +632,7 @@ proxies:
   name: '🇵🇭 Philippines'
   server: 'ph1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'ph1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -632,7 +649,7 @@ proxies:
   name: '🇵🇱 Poland'
   server: 'pl1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'pl1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -649,7 +666,7 @@ proxies:
   name: '🇷🇺 Russia – MSK'
   server: 'ru1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'ru1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -666,7 +683,7 @@ proxies:
   name: '🇷🇺 Russia – SPB'
   server: 'ru2.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'ru2.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -683,7 +700,7 @@ proxies:
   name: '🇸🇬 Singapore'
   server: 'sg1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'sg1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -700,7 +717,7 @@ proxies:
   name: '🇪🇸 Spain'
   server: 'es1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'es1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -717,7 +734,7 @@ proxies:
   name: '🇸🇪 Sweden #2'
   server: 'se2.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'se2.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -734,7 +751,7 @@ proxies:
   name: '🇨🇭 Switzerland'
   server: 'ch1.gofizzin.com'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'ch1.gofizzin.com'
   flow: 'xtls-rprx-vision'
@@ -751,7 +768,7 @@ proxies:
   name: '🇹🇷 Turkey #1'
   server: 'tr1.gofizzin.com'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'tr1.gofizzin.com'
   flow: 'xtls-rprx-vision'
@@ -768,7 +785,7 @@ proxies:
   name: '🇹🇷 Turkey #2'
   server: 'tr2.gofizzin.com'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'tr2.gofizzin.com'
   flow: 'xtls-rprx-vision'
@@ -785,7 +802,7 @@ proxies:
   name: '🇦🇪 UAE'
   server: 'ae1.gofizzin.com'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'ae1.gofizzin.com'
   flow: 'xtls-rprx-vision'
@@ -802,7 +819,7 @@ proxies:
   name: '🇬🇧 UK #1'
   server: 'uk1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'uk1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -819,7 +836,7 @@ proxies:
   name: '🇺🇸 USA – NY'
   server: 'us1.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'us1.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -836,7 +853,7 @@ proxies:
   name: '🇺🇸 USA – LA'
   server: 'us2.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'us2.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -853,7 +870,7 @@ proxies:
   name: '🇺🇸 USA – UT'
   server: 'us3.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'us3.gofizz.in'
   flow: 'xtls-rprx-vision'
@@ -870,7 +887,7 @@ proxies:
   name: '🇺🇸 USA – TX'
   server: 'us4.gofizz.in'
   port: 443
-  uuid: '2eb773f8-b750-4142-b7cb-b5704203597a'
+  uuid: '0e8e732e-e002-4dc9-9259-e596f206fc2b'
   tls: true
   servername: 'us4.gofizz.in'
   flow: 'xtls-rprx-vision'
