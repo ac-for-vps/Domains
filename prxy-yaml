@@ -884,3 +884,20 @@ proxies:
     http-opts: {}
     grpc-opts: {}
     network: 'tcp'
+- type: 'vless'
+  name: 'my-vpn-test'
+  server: '150.241.72.214'
+  port: 443
+  uuid: 'c41869c8-ce6e-4dd9-afc2-3c18d53f6a40'
+  tls: true
+  servername: 'google.com'
+  flow: 'xtls-rprx-vision'
+  client-fingerprint: 'chrome'
+  skip-cert-verify: false
+  reality-opts:
+    public-key: 'uopJFCdKEf0KC-dhVlI__0jLM8UEu8oeQYEFo576gS8'
+    short-id: 'a82ede48bb73'
+    ws-opts: {}
+    http-opts: {}
+    grpc-opts: {}
+    network: 'tcp'
