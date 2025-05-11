@@ -409,22 +409,22 @@ proxies:
     grpc-opts: {}
     network: 'tcp'
 - type: 'vless'
-    name: 'vlESS-0m8qorog7'
-    server: '193.23.210.88'
-    port: 443
-    uuid: '5f29713c-9b8a-45dd-876a-7b5713153045'
-    tls: true
-    servername: 'ign.com'
-    flow: 'xtls-rprx-vision'
-    client-fingerprint: 'chrome'
-    skip-cert-verify: false
-    reality-opts:
-      public-key: 'Q441T2y1TAgc6pv7lXOrJPtct8hPIW2QqALU1UDaPlU'
-      short-id: '079f4e52d1'
-      ws-opts: {}
-      http-opts: {}
-      grpc-opts: {}
-      network: 'tcp'
+  name: 'vlESS-0m8qorog7'
+  server: '193.23.210.88'
+  port: 443
+  uuid: '5f29713c-9b8a-45dd-876a-7b5713153045'
+  tls: true
+  servername: 'ign.com'
+  flow: 'xtls-rprx-vision'
+  client-fingerprint: 'chrome'
+  skip-cert-verify: false
+  reality-opts:
+    public-key: 'Q441T2y1TAgc6pv7lXOrJPtct8hPIW2QqALU1UDaPlU'
+    short-id: '079f4e52d1'
+    ws-opts: {}
+    http-opts: {}
+    grpc-opts: {}
+    network: 'tcp'
 - type: 'vless'
   name: '🇬🇪 Georgia'
   server: 'ge1.gofizz.in'
