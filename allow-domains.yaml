@@ -33,3 +33,4 @@ DOMAIN-SUFFIX,xboxstudios.com
 DOMAIN-SUFFIX,xbx.lv
 DOMAIN-SUFFIX,xsts.auth.xboxlive.com
 IP-CIDR,50.7.85.0/24
+IP-CIDR,164.90.224.0/20
